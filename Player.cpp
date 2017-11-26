@@ -266,7 +266,6 @@ void Player::addMoney(double m)
 void Player::useItem()
 {
 	Menu itemMenu;
-	int count = 1;
 	std::string userChoice;
 	int cleanInt;
 	

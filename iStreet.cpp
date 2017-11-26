@@ -404,11 +404,11 @@ void iStreet::interact(Player * character)
 	{
 		//GENERATE A RANDOM DOLLAR AMOUNT
 		money = rand.rangedRandom(0, 5);
-		static_cast<double>(money);
+
 		std::cout << "You earned $" << money << "!" << std::endl;
 
 		//ADD IT TO CHARACTER'S BANK
-		character->addMoney(money);
+		character->addMoney(static_cast<double>(money));
 	}
 
 }

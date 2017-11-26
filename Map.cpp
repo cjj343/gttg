@@ -202,6 +202,7 @@ void Map::printMap()
 char Map::moveCharacter(char direction)
 {
 	bool badMove = false;
+	char space;
 	std::string userChoice;
 
 	//LOOP UNTIL CHARACTER MAKES A VALID MOVE
@@ -239,7 +240,8 @@ char Map::moveCharacter(char direction)
 					player->positionCharacter();
 
 					//RETURNS CHAR FOR SPACE TYPE
-					return player->getDesignator();
+					space = player->getDesignator();
+					return space;
 				}
 			}
 			else
@@ -270,7 +272,8 @@ char Map::moveCharacter(char direction)
 					player->revealSpace();
 					player = player->right;
 					player->positionCharacter();
-					return player->getDesignator();
+					space = player->getDesignator();
+					return space;
 				}
 			}
 			else
@@ -301,7 +304,8 @@ char Map::moveCharacter(char direction)
 					player->revealSpace();
 					player = player->bottom;
 					player->positionCharacter();
-					return player->getDesignator();
+					space = player->getDesignator();
+					return space;
 				}
 			}
 			else
@@ -332,7 +336,8 @@ char Map::moveCharacter(char direction)
 					player->revealSpace();
 					player = player->left;
 					player->positionCharacter();
-					return player->getDesignator();
+					space = player->getDesignator();
+					return space;
 				}
 			}
 			else
@@ -347,6 +352,8 @@ char Map::moveCharacter(char direction)
 			break;
 		}
 	} while (badMove);
+
+	return space;
 }
 
 //CLEAN UP MEMORY
