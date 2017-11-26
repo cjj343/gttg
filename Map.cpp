@@ -202,7 +202,7 @@ void Map::printMap()
 char Map::moveCharacter(char direction)
 {
 	bool badMove = false;
-	char space;
+	char space = '$';
 	std::string userChoice;
 
 	//LOOP UNTIL CHARACTER MAKES A VALID MOVE
