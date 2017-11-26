@@ -1,0 +1,11 @@
+**********************************************************
+I wonder if the band is here? You step off the street
+and enter a likely looking building. Upon opening the
+door, you see a glorious sight. Row after row of delicious
+adult beverages.  You wander the aisles, wondering what you
+should buy...
+
+	Beer: $5.00, restores 1 BAC
+	Wine: $10.00, restores 3 BAC
+	Vodka: $20.00, restores full BAC
+**********************************************************

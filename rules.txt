@@ -1,0 +1,45 @@
+*******************************STORY*******************************
+Your band, Metalic++, formerly known as Norton Has A Virus, played 
+a killer gig last night! You partied a little too hard after and
+ended up on the street, hungover.  Get back to your band before you
+get too sober!
+*******************************************************************
+
+*******************************RULES*******************************
+You have 6 weapons
+  - Hair Whip: 3 damage, but unlimited
+  - Shred: 5 damage, but loses damage with every broken string
+  - Guitar Bash: 10 damage, but every use causes a string to break
+  - Ninja Picks: 6 damage, one time use, available for purchase
+  - Whammy Crow Bar: 7 damage, one time use, available for purchase
+  - Secret Mystery Weapon: Try to find it!
+
+Use these weapons to destroy enemies you encounter!
+
+There are three stores + a hidden space you can interact with
+  - Music Store(M): repair broken strings, buy extra weapons
+  - Liquor Store(L): restore your BAC(health), buy items
+  - Alcoholics Anon:(A): lose BAC(health)
+  - Hidden Space: find the hidden space to buy a special item!
+
+At game start you have 3 beers in your fanny pack
+
+Enter stores until you find your band mates. You must have all six
+strings on your guitar in order to win the game
+
+Watch out for enemies in the streets!
+
+When your BAC reaches zero, the game is over :(
+*******************************************************************
+
+******************************CONTROLS*****************************
+W: UP
+D: RIGHT
+S: DOWN
+A: LEFT
+
+"P" indicates the player's position. "X" is an inaccesible space.
+Unexplored spaces will be displayed as "?" until they have been
+entered. Blank spaces indicate a street where enemies can be
+encountered.
+*******************************************************************

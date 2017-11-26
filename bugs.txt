@@ -1,0 +1,2 @@
+fix display after priting from file
+enter bug after entry message

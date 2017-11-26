@@ -76,6 +76,9 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -95,6 +98,7 @@
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -111,6 +115,53 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AA.cpp" />
+    <ClCompile Include="Dead.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Gig.cpp" />
+    <ClCompile Include="gttg_main.cpp" />
+    <ClCompile Include="Helper.cpp" />
+    <ClCompile Include="iAA.cpp" />
+    <ClCompile Include="iGig.cpp" />
+    <ClCompile Include="iLS.cpp" />
+    <ClCompile Include="iMS.cpp" />
+    <ClCompile Include="Interactive.cpp" />
+    <ClCompile Include="iSatan.cpp" />
+    <ClCompile Include="iStreet.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="LiqourStore.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="MusicStore.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="Satan.cpp" />
+    <ClCompile Include="Space.cpp" />
+    <ClCompile Include="Street.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AA.hpp" />
+    <ClInclude Include="Dead.hpp" />
+    <ClInclude Include="Game.hpp" />
+    <ClInclude Include="Gig.hpp" />
+    <ClInclude Include="Helper.hpp" />
+    <ClInclude Include="iAA.hpp" />
+    <ClInclude Include="iGig.hpp" />
+    <ClInclude Include="iLS.hpp" />
+    <ClInclude Include="iMS.hpp" />
+    <ClInclude Include="Interactive.hpp" />
+    <ClInclude Include="iSatan.hpp" />
+    <ClInclude Include="iStreet.hpp" />
+    <ClInclude Include="Item.hpp" />
+    <ClInclude Include="LiqourStore.hpp" />
+    <ClInclude Include="Map.hpp" />
+    <ClInclude Include="Menu.hpp" />
+    <ClInclude Include="MusicStore.hpp" />
+    <ClInclude Include="Player.hpp" />
+    <ClInclude Include="Random.hpp" />
+    <ClInclude Include="Satan.hpp" />
+    <ClInclude Include="Space.hpp" />
+    <ClInclude Include="Street.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
