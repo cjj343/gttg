@@ -1,2 +1,3 @@
-fix display after priting from file
-enter bug after entry message
+store functions
+max items
+reentet satan chamber

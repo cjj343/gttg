@@ -327,6 +327,7 @@ void Player::restoreStrings()
 {
 	money -= REPAIR_COST;
 	strings = 6;
+	attack[2]->active = true;
 }
 
 //ACTIVATES SPECIAL NINJA PICK WEAPON
@@ -354,7 +355,7 @@ void Player::activateSpecial()
 //MUST HAVE ALL SIX STRINGS TO WIN GAME
 bool Player::getStrings()
 {
-	if (strings == 6)
+	if (strings == FULL_STRINGS)
 	{
 		return true;
 	}
@@ -376,12 +377,27 @@ bool Player::getWin()
 	return win;
 }
 
+bool Player::getNinja()
+{
+	return attack[3]->active;
+}
+
+bool Player::getWhammy()
+{
+	return attack[4]->active;
+}
+
 //PRINTS VITAL STATS
 void Player::printStats()
 {
 	std::cout << "BAC: " << BAC << std::endl;
 	std::cout << "Money: $" << money << std::endl;
 	std::cout << "Strings: " << strings << std::endl;
+}
+
+int Player::getItemCount()
+{
+	return itemCount;
 }
 
 bool Player::fannyPackStatus()

@@ -70,7 +70,7 @@ public:
 	const double NINJA_COST = 3;
 	const double WHAMMY_DAMAGE = 7;
 	const double WHAMMY_COST = 4;
-	const double GORETAR_DAMAGE = 1000000;
+	const double GORETAR_DAMAGE = 666;
 	Player();
 	void loseBAC(double);
 	void addBAC(double);
@@ -87,7 +87,10 @@ public:
 	bool getStrings();
 	void setWin();
 	bool getWin();
+	bool getNinja();
+	bool getWhammy();
 	void printStats();
+	int getItemCount();
 	bool fannyPackStatus();
 	~Player();
 };

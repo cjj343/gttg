@@ -30,6 +30,8 @@ strings on your guitar in order to win the game
 Watch out for enemies in the streets!
 
 When your BAC reaches zero, the game is over :(
+
+**Graders, please see graders.txt**
 *******************************************************************
 
 ******************************CONTROLS*****************************

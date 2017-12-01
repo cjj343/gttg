@@ -155,6 +155,7 @@ void Game::runGame()
 
 		std::cout << std::endl << std::endl;
 
+		//BEER.TXT FROM http://www.chris.com/ascii/
 		input.open("beer.txt");
 		char temp;
 

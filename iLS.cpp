@@ -49,14 +49,22 @@ void iLS::interact(Player * character)
 		{
 		case 1:
 		{
-			if (character->getMoney() >= character->BEER_COST)
+			if (character->getMoney() >= character->BEER_COST && (character->getItemCount() < character->MAX_ITEMS))
 			{
 				character->addItem('b');
 				std::cout << "1 Beer added to your fanny pack" << std::endl;
 			}
 			else
 			{
-				std::cout << "You do not have enough money for this item" << std::endl;
+				if (character->getMoney() < character->BEER_COST)
+				{
+					std::cout << "You do not have enough money for this item" << std::endl;
+				}
+
+				else if (character->getItemCount() >= character->MAX_ITEMS)
+				{
+					std::cout << "Your fanny pack is full" << std::endl;
+				}
 			}
 
 		}
@@ -64,28 +72,44 @@ void iLS::interact(Player * character)
 
 		case 2:
 		{
-			if (character->getMoney() >= character->WINE_COST)
+			if (character->getMoney() >= character->WINE_COST && (character->getItemCount() < character->MAX_ITEMS))
 			{
 				character->addItem('w');
 				std::cout << "1 bottle of wine added to your fanny pack" << std::endl;
 			}
 			else
 			{
-				std::cout << "You do not have enough money for this item" << std::endl;
+				if (character->getMoney() < character->WINE_COST)
+				{
+					std::cout << "You do not have enough money for this item" << std::endl;
+				}
+
+				else if (character->getItemCount() >= character->MAX_ITEMS)
+				{
+					std::cout << "Your fanny pack is full" << std::endl;
+				}
 			}
 		}
 		break;
 
 		case 3:
 		{
-			if (character->getMoney() >= character->VODKA_COST)
+			if (character->getMoney() >= character->VODKA_COST && (character->getItemCount() < character->MAX_ITEMS))
 			{
 				character->addItem('v');
 				std::cout << "1 bottle of vodka added to your fanny pack" << std::endl;
 			}
 			else
 			{
-				std::cout << "You do not have enough money for this item" << std::endl;
+				if (character->getMoney() < character->VODKA_COST)
+				{
+					std::cout << "You do not have enough money for this item" << std::endl;
+				}
+
+				else if (character->getItemCount() >= character->MAX_ITEMS)
+				{
+					std::cout << "Your fanny pack is full" << std::endl;
+				}
 			}
 		}
 		break;

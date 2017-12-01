@@ -4,6 +4,6 @@ and enter a likely looking building. It's a music store!
 Use this oppurtunity to restock on strings or buy special
 weapons!
 	Strings: $5.00, restores your string count
-	Ninja Picks: $5.00, 6 damage (one time use)
-	Whammy Crow Bar: $7.00, 7 damage (one time use)
+	Ninja Picks: $3.00, 6 damage (one time use)
+	Whammy Crow Bar: $4.00, 7 damage (one time use)
 **********************************************************

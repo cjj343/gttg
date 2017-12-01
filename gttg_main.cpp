@@ -27,7 +27,7 @@ int main()
 	std::cout << "Please enter full screen mode" << '\n';
 	std::cin.get();
 	
-	//OPEN FILE FOR GRAPHIC
+	//OPEN FILE FOR GRAPHIC. ART FROM http://www.chris.com/ascii/
 	input.open("guitar.txt");
 
 	//PRINT GRAPHIC
