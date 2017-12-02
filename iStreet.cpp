@@ -270,10 +270,12 @@ void iStreet::interact(Player * character)
 						fb.HP = 0;
 					}
 				}
+
+				std::cout << fb.name << " HP: " << fb.HP << std::endl;
+				std::cout << "BAC: " << character->getBAC() << std::endl;
 			}
 
-			std::cout << fb.name << " HP: " << fb.HP << std::endl;
-			std::cout << "BAC: " << character->getBAC() << std::endl;
+
 		}
 	}
 	break;
@@ -385,10 +387,12 @@ void iStreet::interact(Player * character)
 						jb.HP = 0;
 					}
 				}
+
+				std::cout << jb.name << " HP: " << jb.HP << std::endl;
+				std::cout << "BAC: " << character->getBAC() << std::endl;
 			}
 
-			std::cout << jb.name << " HP: " << jb.HP << std::endl;
-			std::cout << "BAC: " << character->getBAC() << std::endl;
+
 		}
 	}
 	break;

@@ -326,8 +326,9 @@ void Player::useItem()
 void Player::restoreStrings()
 {
 	money -= REPAIR_COST;
-	strings = 6;
+	strings = FULL_STRINGS;
 	attack[2]->active = true;
+	attack[1]->damage = SHRED_DAMAGE;
 }
 
 //ACTIVATES SPECIAL NINJA PICK WEAPON
